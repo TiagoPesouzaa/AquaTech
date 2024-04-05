@@ -2,8 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
-    
+    background-color: whitesmoke;
 }
 .container{
     width: 80%;
@@ -13,11 +12,24 @@ body{
 
 .header{
     border-bottom: 3px solid #32b9cd;
+    background-color: black;
 }
 
 .titulo{
     color: #32b9cd;
     font-weight: 500;
+}
+
+.header .container{
+    justify-content: space-between;
+}
+
+.banner {
+    background-image: url("/home/aluno/Downloads/AquaTech/imagens/bg-jelly-fish-para_outras_pags.png");
+    width: 100%;
+    height: 500px;
+    display: flex;
+
 }
 .navbar{
     width: 400px;
@@ -32,3 +44,45 @@ body{
 .header .container{
     justify-content: space-between;
 }
+
+.banner-title {
+    margin: 0;
+    color: white;
+    font-size: 35px;
+    align-items: center;
+}
+
+.banner .container{
+    width: 10%;
+    justify-content: flex-end;
+
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+}
+
+.cards h2{
+    color: #EB3333;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 100px;
+    padding: 5%;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #32b9cd;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer p{
+    margin: 0;
+} 
